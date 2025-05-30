@@ -6,9 +6,11 @@ package bloodtestscheduler;
 
 import javax.swing.JOptionPane;
 
-/**
+/** A GUI class that create the main landing page of the app.
  *
- * @author Leandro
+ * @author Leandro Crisol
+ * NCI Student ID: 23156503
+ * 
  */
 public class BloodTestSchedulerGUI extends javax.swing.JFrame {
     private final SchedulerService scheduler = new SchedulerService();

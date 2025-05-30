@@ -6,6 +6,13 @@ package bloodtestscheduler;
 
 import java.util.*;
 
+/** This class defines the behavior of the Priority Queue for all patients
+ * and the way the Linked List for no-show patients works.
+ *
+ * @author Leandro Crisol Lo Presti
+ * NCI Student ID: 23156503
+ */
+
 public class SchedulerService {
     private final PriorityQueue<Patient> patientQueue;
     private final LinkedList<Patient> noShowList;

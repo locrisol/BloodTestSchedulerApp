@@ -7,6 +7,7 @@ package bloodtestscheduler;
 /** This class defines the properties of a Patient object
  *
  * @author Leandro Crisol Lo Presti
+ * NCI Student ID: 23156503
  */
 public class Patient {
     private String name;
