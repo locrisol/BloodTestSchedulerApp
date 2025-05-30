@@ -39,12 +39,12 @@ public class Patient {
         String newRow;
         
         newRow = "<tr>" +
-                    "<th>"+name+"</th>"+
-                    "<th>"+age+"</th>"+
-                    "<th>"+gpName+"</th>"+
-                    "<th>"+gpLicense+"</th>"+
-                    "<th>"+priority+"</th>"+
-                    "<th>"+fromHospitalWard+"</th>"+
+                    "<td>"+name+"</td>"+
+                    "<td>"+age+"</td>"+
+                    "<td>"+gpName+"</td>"+
+                    "<td>"+gpLicense+"</td>"+
+                    "<td>"+priority+"</td>"+
+                    "<td>"+fromHospitalWard+"</td>"+
                  "</tr>";
         
         return newRow;
