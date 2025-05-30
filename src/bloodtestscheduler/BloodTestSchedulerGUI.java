@@ -9,7 +9,7 @@ package bloodtestscheduler;
  * @author Leandro
  */
 public class BloodTestSchedulerGUI extends javax.swing.JFrame {
-
+    private final SchedulerService scheduler = new SchedulerService();
     /**
      * Creates new form BloodTestSchedulerGUI
      */
