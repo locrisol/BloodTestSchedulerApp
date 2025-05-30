@@ -20,6 +20,7 @@ public class BloodTestSchedulerGUI extends javax.swing.JFrame {
      */
     public BloodTestSchedulerGUI() {
         initComponents();
+        // Prepares text areas to handle the HTML tables I have created
         patientsQueueListTextArea.setContentType("text/html");
         patientsNoShowListTextArea.setContentType("text/html");
     }
