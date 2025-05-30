@@ -305,7 +305,14 @@ public class BloodTestSchedulerGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_patientPriorityButtonLowActionPerformed
 
     private void markPatientNoShowButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_markPatientNoShowButtonActionPerformed
-        // TODO add your handling code here:
+        if (scheduler.isQueueEmpty()) {
+            JOptionPane.showMessageDialog(this, "No patients in queue", "Info", JOptionPane.INFORMATION_MESSAGE);
+            return;
+        }    
+        
+        Patient noShowPatient = scheduler.processNextPatient();
+        scheduler.markNoShow(noShowPatient);
+        updateDisplay();
     }//GEN-LAST:event_markPatientNoShowButtonActionPerformed
 
     private void updateDisplay() {      
